@@ -11,3 +11,81 @@
 html { 
     font-size: 62.5%;
 }
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    min-width: 320px;
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* HEADER SOCIALS */
+.header__socials-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 50px;
+    background-color: var(--primary-color);
+}
+
+.header__social { 
+    margin: 10px 15px;
+    height: 20px;
+}
+
+.header__icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+/* HEADER NAV */
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+}
+
+.header__logo { 
+    height: 70px;
+}
+
+.header__profile {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* MAIN CONTANER*/
+.main {
+    flex-grow: 1;
+    
+    background-image: url("/assets/img/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__info {
+    max-width: 800px;
+    text-align: center;
+    font-size: 4.2rem;
+    color: white;
+}
+
+.main__enter {
+    padding: 15px;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: var(--primary-color);
+}
+
+.main__enter:hover {
+    text-decoration: underline;
+}
