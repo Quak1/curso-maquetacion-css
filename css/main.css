@@ -64,6 +64,10 @@ body {
 .main {
     flex-grow: 1;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     background-image: url("/assets/img/Cover.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +75,7 @@ body {
 }
 
 .main__info {
+    margin-top: 100px;
     max-width: 800px;
     text-align: center;
     font-size: 4.2rem;
@@ -78,6 +83,7 @@ body {
 }
 
 .main__enter {
+    margin-top: 50px;
     padding: 15px;
     font-size: 2rem;
     text-decoration: none;
