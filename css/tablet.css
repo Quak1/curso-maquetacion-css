@@ -1,0 +1,21 @@
+.header__socials-container {
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.header__nav {
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+.header__logo {
+    height: 70px;
+}
+
+.main__info {
+    font-size: 4.2rem;
+}
+
+.main__enter {
+    margin-top: 50px;
+}
