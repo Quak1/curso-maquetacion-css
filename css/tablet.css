@@ -24,6 +24,7 @@
 /* BLOGS */
 .blogs__latest {
     margin: 0 auto;
+    margin-bottom: 70px;
     padding: 0 10px;
 } 
 
