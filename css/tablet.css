@@ -8,7 +8,8 @@
     padding: 0 65px;
 }
 
-.header__logo {
+.header__logo,
+.header__logo-link {
     height: 70px;
 }
 
