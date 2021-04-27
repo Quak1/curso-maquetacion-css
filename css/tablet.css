@@ -20,3 +20,21 @@
 .main__enter {
     margin-top: 50px;
 }
+
+/* BLOGS */
+
+/* .blogs__latest {
+    margin: 0 auto;
+    padding: 0 10px;
+}  */
+
+.blogs__card.main-card h3 {
+    margin-top: 0;
+}
+
+.blogs__card.main-card img{
+    width: 60%;
+    max-width: 380px;
+    float:left;
+    margin-right: 10px;
+}
