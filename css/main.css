@@ -165,9 +165,53 @@ body {
     border-bottom: 1px solid var(--border-grey);
 }
 
+/* POST PAGE */
+.post__main img {
+    width: 100%;
+}
+
+.post__main h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    padding: 15px ;
+    border-bottom: 1px solid var(--border-grey);
+}
+
+.post__main h3 {
+    font-size: 3rem;
+    margin: 25px 8px;
+}
+
+.post__main p {
+    margin: 0 10px;
+    margin-bottom: 1.6rem
+}
+
+.post__interactions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    /* padding-top: ; */
+    padding-bottom: 50px;
+    background-color: var(--border-grey);
+}
+
+
+.post__card {
+    display: flex;
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+.post__card img {
+    width: 85px;
+}
+
 /* FOOTER */
 .footer__divider {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: 30px;
     background-color: var(--primary-color);
 }
