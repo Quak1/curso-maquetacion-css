@@ -241,9 +241,12 @@ body {
 
 /* PROFILE PAGE */
 .profile__about {
+    background-color: var(--card-gray);
+}
+
+.profile__about-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--card-gray);
 }
 
 .profile__about-info {

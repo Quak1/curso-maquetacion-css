@@ -38,3 +38,48 @@
     float: left;
     margin-right: 10px;
 }
+
+/* PROFILE PAGE */
+.profile__about {
+    padding: 50px 0;
+}
+
+.profile__about-container {
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.profile__about img {
+    max-width: 320px;
+}
+
+.profile__about-info {
+    margin-left: 30px;
+}
+
+.profile__about h2 {
+    margin-bottom: 25px;
+}
+
+.profile__proyects {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-auto-flow: column;
+    column-gap: 30px;
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 980px;
+}
+
+.profile__proyects h2 {
+    grid-column: 1 / 3 span;
+    grid-row: 1 / 2;
+}
+
+.profile__proyects-card {
+    grid-row: 2 / 3;
+    margin: 0;
+    margin-top: 30px;
+}
